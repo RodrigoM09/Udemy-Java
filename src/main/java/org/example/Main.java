@@ -24,7 +24,14 @@ public class Main {
         long myMinLongValue = Long.MIN_VALUE;
         System.out.println("Long Minimum Value = " + myMaxLongValue);
         System.out.println("Long Minimum Value = " + myMinLongValue);
-        
-        
+
+        short bigShortLiteralValue = 32767;
+
+        int myTotal = (myMinIntValue /2);
+
+        //CASTING -------------------->
+        byte myNewByteValue = (byte) (myMinByteValue/2);
+
+
     }
 }
